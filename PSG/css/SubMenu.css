@@ -1,0 +1,50 @@
+﻿@media screen and (max-width: 767px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+}
+@media (max-width: 767px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 767px) {
+}
+/* Styles für das Submenu beim Spielen/Fragen Bereich */
+@media only screen and (max-width: 991px) {
+  section.submenu a {
+    display: inline-block;
+    margin: 3px 0;
+  }
+}
+@media only screen and (min-width: 992px) {
+  section.submenu a {
+    margin: 0 15px;
+  }
+}
+section.submenu {
+  padding-bottom: 28px;
+  margin-top: 28px;
+  text-align: center;
+}
+section.submenu a {
+  width: 100%;
+  color: #000;
+  border: 1px solid #cecece;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 15px;
+}
+section.submenu a:hover {
+  color: #fff;
+  background-Color: #3D3D3D;
+}
+section.submenu a.active {
+  color: #fff;
+  background-Color: #3D3D3D;
+}

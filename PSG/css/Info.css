@@ -1,0 +1,358 @@
+﻿@media screen and (max-width: 767px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+}
+@media (max-width: 767px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 767px) {
+}
+/* Styles für Registrierung/Shop Bereich */
+section.sale_hierarchiest {
+  padding: 30px 0;
+  z-index: 2;
+  background-color: #707070;
+}
+section.sale_hierarchiest i {
+  vertical-align: sub;
+}
+section.sale_hierarchiest .registration_container {
+  padding: 0;
+}
+section.sale_hierarchiest .text-center {
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  /* Selektieren des ersten Kind-Elements unter diesem Div */
+}
+section.sale_hierarchiest .text-center :first-child {
+  color: #fff;
+  margin-bottom: 15px;
+}
+section.sale_hierarchiest .text-center :first-child .button {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #fff;
+  background-color: #3D3D3D;
+  border-color: #3D3D3D;
+  font-size: 14px;
+  padding: 10px 20px;
+  margin: 0 auto;
+  margin-top: 40px;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+section.sale_hierarchiest .text-center :first-child .button:focus,
+section.sale_hierarchiest .text-center :first-child .button:active:focus,
+section.sale_hierarchiest .text-center :first-child .button.active:focus,
+section.sale_hierarchiest .text-center :first-child .button.focus,
+section.sale_hierarchiest .text-center :first-child .button:active.focus,
+section.sale_hierarchiest .text-center :first-child .button.active.focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+section.sale_hierarchiest .text-center :first-child .button:hover,
+section.sale_hierarchiest .text-center :first-child .button:focus,
+section.sale_hierarchiest .text-center :first-child .button.focus {
+  color: #333;
+  text-decoration: none;
+}
+section.sale_hierarchiest .text-center :first-child .button:active,
+section.sale_hierarchiest .text-center :first-child .button.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+section.sale_hierarchiest .text-center :first-child .button.disabled,
+section.sale_hierarchiest .text-center :first-child .button[disabled],
+fieldset[disabled] section.sale_hierarchiest .text-center :first-child .button {
+  cursor: not-allowed;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+asection.sale_hierarchiest .text-center :first-child .button.disabled,
+fieldset[disabled] asection.sale_hierarchiest .text-center :first-child .button {
+  pointer-events: none;
+}
+section.sale_hierarchiest .text-center :nth-child(2) {
+  color: #fff;
+  font-size: 19px;
+  float: left;
+}
+section.sale_hierarchiest .text-center .sub_headline {
+  color: #fff;
+  font-size: 19px;
+  float: left;
+  text-align: left !important;
+  bottom: 0;
+}
+section.sale_hierarchiest img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+section.sale_hierarchiest ul {
+  margin-left: 30px;
+}
+section.sale_hierarchiest ul li {
+  color: #fff;
+  padding: 15px;
+  font-size: 20px;
+}
+@media only screen and (max-width: 991px) {
+  #RegistrationForm input,
+  #RegistrationForm select {
+    margin-left: 10px;
+    width: 95%!important;
+  }
+  #RegistrationForm label.checkbox {
+    margin-left: 25px;
+  }
+  #RegistrationForm .headline:not(#registrationHint) {
+    min-height: 230px;
+  }
+}
+#RegistrationForm .alert {
+  display: none;
+}
+#RegistrationForm label {
+  color: #ffffff;
+  font-size: 12px;
+}
+#RegistrationForm ul {
+  margin-left: 30px;
+  float: left;
+}
+#RegistrationForm ul li {
+  color: #fff;
+  font-size: 16px;
+  padding: 5px;
+  margin-left: 30px;
+}
+#RegistrationForm #squaredFour {
+  display: none;
+}
+#RegistrationForm .dataprotection {
+  display: inline-flex;
+}
+#RegistrationForm .dataprotection > div {
+  color: #fff;
+  padding-top: 10px;
+}
+#RegistrationForm .headline {
+  color: #fff;
+  font-size: 20px;
+  padding: 5px 5px 20px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+#RegistrationForm .headline:before {
+  content: '';
+  font-family: FontAwesome;
+  display: inline-block;
+  width: 2.2em;
+  margin-left: -2.2em;
+}
+#RegistrationForm h2 {
+  margin-top: 0;
+  margin-bottom: 55px;
+  color: #fff;
+}
+#RegistrationForm .button {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 10px;
+  position: static;
+  background-color: #3D3D3D;
+  border-color: #3D3D3D;
+  color: #fff;
+  font-size: 18px;
+  padding: 20px 40px;
+}
+#RegistrationForm .button:focus,
+#RegistrationForm .button:active:focus,
+#RegistrationForm .button.active:focus,
+#RegistrationForm .button.focus,
+#RegistrationForm .button:active.focus,
+#RegistrationForm .button.active.focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+#RegistrationForm .button:hover,
+#RegistrationForm .button:focus,
+#RegistrationForm .button.focus {
+  color: #333;
+  text-decoration: none;
+}
+#RegistrationForm .button:active,
+#RegistrationForm .button.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+#RegistrationForm .button.disabled,
+#RegistrationForm .button[disabled],
+fieldset[disabled] #RegistrationForm .button {
+  cursor: not-allowed;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+a#RegistrationForm .button.disabled,
+fieldset[disabled] a#RegistrationForm .button {
+  pointer-events: none;
+}
+#RegistrationForm .button span {
+  font-size: 22px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+#RegistrationForm .button:hover {
+  color: #000;
+}
+#RegistrationForm .loginformular {
+  color: #fff;
+  border-radius: 15px;
+  vertical-align: middle;
+  min-height: 415px;
+}
+#RegistrationForm .loginformular div.inputshop {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px !important;
+}
+#RegistrationForm .loginformular div.inputshop input#tbxemailshop {
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  height: 62px;
+  box-shadow: 5px;
+}
+#RegistrationForm .loginformular div.inputshop input#tbxpasswordshop {
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  height: 62px;
+  box-shadow: 5px;
+}
+#RegistrationForm .loginformular .loginheadline {
+  margin-bottom: 35px;
+}
+#RegistrationForm .loginformular .Registheadline {
+  color: #fff;
+  margin-bottom: 55px;
+}
+#RegistrationForm .loginformular .nonpaddingheadline {
+  padding-top: 0;
+  margin-top: 0;
+}
+#RegistrationForm .loginformular h2 {
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+#RegistrationForm .col-md-12 {
+  padding: 0 0 15px 0;
+}
+#RegistrationForm .col-md-12 input {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  padding: 20px;
+  height: auto;
+}
+#RegistrationForm .col-md-12 input:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+#RegistrationForm .col-md-12 input::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+#RegistrationForm .col-md-12 input:-ms-input-placeholder {
+  color: #999;
+}
+#RegistrationForm .col-md-12 input::-webkit-input-placeholder {
+  color: #999;
+}
+#RegistrationForm .col-md-12 input::-ms-expand {
+  border: 0;
+  background-color: transparent;
+}
+#RegistrationForm .col-md-12 input[disabled],
+#RegistrationForm .col-md-12 input[readonly],
+fieldset[disabled] #RegistrationForm .col-md-12 input {
+  background-color: #eeeeee;
+  opacity: 1;
+}
+#RegistrationForm .col-md-12 input[disabled],
+fieldset[disabled] #RegistrationForm .col-md-12 input {
+  cursor: not-allowed;
+}
+textarea#RegistrationForm .col-md-12 input {
+  height: auto;
+}
+#RegistrationForm .col-md-6 ul {
+  padding-bottom: 20px;
+}

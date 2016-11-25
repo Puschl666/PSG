@@ -1,0 +1,78 @@
+﻿@media screen and (max-width: 767px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+}
+@media (max-width: 767px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 767px) {
+}
+@media only screen and (max-width: 991px) {
+  section.game_selection .game_item {
+    padding: 25px 25px 0 25px;
+  }
+  section.game_selection .game_description {
+    padding: 10px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  section.game_selection h4 {
+    margin: 15px 0;
+  }
+  section.game_selection .game_item {
+    padding: 25px;
+  }
+  section.game_selection .game_description {
+    padding: 20px;
+  }
+}
+section.game_selection {
+  padding-top: 0;
+}
+section.game_selection h4 {
+  font-weight: bold;
+  text-transform: none;
+}
+section.game_selection p {
+  color: #eee;
+  margin-bottom: 20px;
+}
+section.game_selection img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  display: inline;
+}
+section.game_selection .col-md-4 {
+  text-align: center;
+}
+section.game_selection .col-md-4 .game_item {
+  max-width: 400px;
+  margin: 30px auto;
+  text-align: center;
+  min-height: 325px;
+  background-color: #aaa;
+  border: 1px solid #bbb;
+}
+section.game_selection .col-md-4 .game_item:hover {
+  transition: all 0.5s ease-in;
+  background-color: #707070;
+  color: #fff;
+  cursor: pointer;
+}
+section.game_selection .col-md-4 .game_item:hover h4,
+section.game_selection .col-md-4 .game_item:hover p {
+  color: #fff;
+}
+section.game_selection .col-md-4 .game_item:hover a.LinkButton {
+  background-color: #a5a5a5;
+  color: #fff;
+  transition: all 0.5s ease-in;
+}

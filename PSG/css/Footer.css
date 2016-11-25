@@ -1,0 +1,76 @@
+﻿@media screen and (max-width: 767px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+}
+@media (max-width: 767px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 767px) {
+}
+@media only screen and (max-width: 991px) {
+  footer ul {
+    padding-left: 0;
+  }
+  footer ul.social-buttons {
+    margin-bottom: 0;
+  }
+}
+footer {
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 25px 0;
+  text-align: center;
+  background-color: #222;
+  margin-top: 15px;
+}
+footer ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+footer ul li {
+  display: inline-block;
+  padding: 0 5px;
+}
+footer ul.social-buttons {
+  text-transform: none;
+}
+footer ul.social-buttons a {
+  display: block;
+  background-color: #999;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: #fff;
+  outline: 0;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+}
+footer ul.social-buttons a:hover,
+footer ul.social-buttons a:focus {
+  background-color: #a5a5a5;
+}
+footer ul.quicklinks a {
+  color: #eee;
+}
+footer ul.quicklinks a:hover,
+footer ul.quicklinks a:focus {
+  color: #999;
+}
+footer ul.quicklinks a:link,
+footer ul.quicklinks a:visited {
+  color: #eee;
+}
+footer ul,
+footer span {
+  line-height: 40px;
+}
