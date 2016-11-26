@@ -3,28 +3,11 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>@ViewData("Title")</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData("Title") - Playsomegames</title>
     <link rel="icon" type="image/png" href="/Images/favicon.png" />
-
-    <link href="/css/bootstrap.css" rel="stylesheet" />
-    <link href="/css/font-awesome.css" rel="stylesheet" />
-    <link href="/css/Common.css" rel="stylesheet" />
-    <link href="/css/Footer.css" rel="stylesheet" />
-    <link href="/css/Header.css" rel="stylesheet" />
-    <link href="/css/Navigation.css" rel="stylesheet" />
-    <link href="/css/Site.css" rel="stylesheet" />
-    <link href="/css/SubMenu.css" rel="stylesheet" />
-    <link href="/css/content/GameSelection.css" rel="stylesheet" />
-    <link href="/css/content/SiteHeadline.css" rel="stylesheet" />
-
-    <script src="/javascript/jquery/jquery.js"></script>
-    <script src="/javascript/namespaces.js"></script>
-    <script src="/javascript/bootstrap.js"></script>
-    <script src="/javascript/plugins/parallax.js"></script>
-    <script src="/javascript/plugins/equalheight.js"></script>
-    <script src="/javascript/general.js"></script>
-    <script src="/javascript/javascript.js"></script>
+    @Styles.Render("~/css")
+    @Scripts.Render("~/javascript")
 </head>
 <body>
     <div>
