@@ -26,6 +26,26 @@ Public Module BundleConfig
                   "~/css/SubMenu.css",
                   "~/css/content/GameSelection.css",
                   "~/css/content/SiteHeadline.css"))
+
+        bundles.Add(New ScriptBundle("~/javascript/manager").Include(
+                    "~/javascript/jquery/jquery.js",
+                    "~/javascript/bootstrap.js",
+                    "~/javascript/manager/plugins/modernizr-2.6.2-respond-1.1.0.min.js",
+                    "~/javascript/manager/plugins/flot/jquery.flot.js",
+                    "~/javascript/manager/plugins/flot/jquery.flot.resize.js",
+                    "~/javascript/manager/plugins/flot/jquery.flot.time.js",
+                    "~/javascript/manager/plugins/flot/jquery.flot.stack.js",
+                    "~/javascript/manager/for_index.js"))
+
+        bundles.Add(New StyleBundle("~/css/manager").Include(
+                  "~/css/manager/bootstrap.css",
+                  "~/css/manager/main.css",
+                  "~/css/manager/theme.css",
+                  "~/css/manager/MoneAdmin.css",
+                  "~/css/manager/layout2.css",
+                  "~/css/manager/plugins/flot/examples.css",
+                  "~/css/manager/plugins/timeline/timeline.css",
+                  "~/css/font-awesome.css"))
     End Sub
 End Module
 

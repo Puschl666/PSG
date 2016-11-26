@@ -138,6 +138,23 @@
     <Content Include="css\Footer.css" />
     <Content Include="css\Header.css" />
     <Content Include="css\Info.css" />
+    <Content Include="css\manager\bootstrap-fileupload.min.css" />
+    <Content Include="css\manager\bootstrap-wysihtml5-hack.css" />
+    <Content Include="css\manager\calendar.css" />
+    <Content Include="css\manager\countdown.css" />
+    <Content Include="css\manager\error.css" />
+    <Content Include="css\manager\jqstooltip.css" />
+    <Content Include="css\manager\jquery-ui.css" />
+    <Content Include="css\manager\jquery.cleditor-hack.css" />
+    <Content Include="css\manager\layout2.css" />
+    <Content Include="css\manager\login.css" />
+    <Content Include="css\manager\main.css" />
+    <Content Include="css\manager\Markdown.Editor.hack.css" />
+    <Content Include="css\manager\MoneAdmin.css" />
+    <Content Include="css\manager\Offline.css" />
+    <Content Include="css\manager\plugins\flot\examples.css" />
+    <Content Include="css\manager\plugins\timeline\timeline.css" />
+    <Content Include="css\manager\theme.css" />
     <Content Include="css\Navigation.css" />
     <Content Include="css\site.css" />
     <Content Include="css\SubMenu.css" />
@@ -152,6 +169,32 @@
     <Content Include="javascript\javascript.js" />
     <Content Include="javascript\jquery\jquery-ui.js" />
     <Content Include="javascript\jquery\jquery.js" />
+    <Content Include="javascript\manager\bar_chart.js" />
+    <Content Include="css\manager\bootstrap.css" />
+    <Content Include="javascript\manager\calendarInit.js" />
+    <Content Include="javascript\manager\countdown.js" />
+    <Content Include="javascript\manager\editorInit.js" />
+    <Content Include="javascript\manager\formsInit.js" />
+    <Content Include="javascript\manager\for_index.js" />
+    <Content Include="javascript\manager\get_slider.js" />
+    <Content Include="javascript\manager\image_gallery.js" />
+    <Content Include="javascript\manager\jquery.knob.js" />
+    <Content Include="javascript\manager\line_chart.js" />
+    <Content Include="javascript\manager\login.js" />
+    <Content Include="javascript\manager\mapsInit.js" />
+    <Content Include="javascript\manager\moreNoti.js" />
+    <Content Include="javascript\manager\notifications.js" />
+    <Content Include="javascript\manager\pie_chart.js" />
+    <Content Include="javascript\manager\plugins\flot\jquery.flot.js" />
+    <Content Include="javascript\manager\plugins\flot\jquery.flot.navigate.js" />
+    <Content Include="javascript\manager\plugins\flot\jquery.flot.pie.js" />
+    <Content Include="javascript\manager\plugins\flot\jquery.flot.resize.js" />
+    <Content Include="javascript\manager\plugins\flot\jquery.flot.stack.js" />
+    <Content Include="javascript\manager\plugins\flot\jquery.flot.symbol.js" />
+    <Content Include="javascript\manager\plugins\flot\jquery.flot.time.js" />
+    <Content Include="javascript\manager\plugins\modernizr-2.6.2-respond-1.1.0.min.js" />
+    <Content Include="javascript\manager\validationInit.js" />
+    <Content Include="javascript\manager\WizardInit.js" />
     <Content Include="javascript\namespaces.js" />
     <Content Include="javascript\plugins\equalheight.js" />
     <Content Include="javascript\plugins\parallax.js" />
@@ -160,6 +203,8 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
+    <Compile Include="Areas\Manager\Controllers\DefaultController.vb" />
+    <Compile Include="Areas\Manager\ManagerAreaRegistration.vb" />
     <Compile Include="Controllers\ForumController.vb" />
     <Compile Include="Controllers\GameController.vb" />
     <Compile Include="Controllers\HomeController.vb" />
@@ -201,6 +246,9 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.woff2" />
     <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="Areas\Manager\Views\web.config" />
+    <Content Include="Areas\Manager\Views\Layout\Default.vbhtml" />
+    <Content Include="Areas\Manager\Views\Default\Index.vbhtml" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -235,6 +283,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\Manager\Models\" />
+    <Folder Include="Areas\Manager\Views\Shared\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
