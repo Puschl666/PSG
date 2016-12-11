@@ -203,6 +203,7 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
+    <Compile Include="Areas\Manager\Controllers\AdminController.vb" />
     <Compile Include="Areas\Manager\Controllers\DefaultController.vb" />
     <Compile Include="Areas\Manager\ManagerAreaRegistration.vb" />
     <Compile Include="Controllers\ForumController.vb" />
@@ -246,9 +247,13 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.woff2" />
     <Content Include="fonts\FontAwesome.otf" />
-    <Content Include="Areas\Manager\Views\web.config" />
+    <Content Include="Areas\Manager\Views\web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Areas\Manager\Views\Layout\Default.vbhtml" />
     <Content Include="Areas\Manager\Views\Default\Index.vbhtml" />
+    <Content Include="Areas\Manager\Views\Layout\Login.vbhtml" />
+    <Content Include="Areas\Manager\Views\Admin\Login.vbhtml" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

@@ -46,6 +46,16 @@ Public Module BundleConfig
                   "~/css/manager/plugins/flot/examples.css",
                   "~/css/manager/plugins/timeline/timeline.css",
                   "~/css/font-awesome.css"))
+
+        bundles.Add(New ScriptBundle("~/javascript/manager/login").Include(
+                    "~/javascript/jquery/jquery.js",
+                    "~/javascript/bootstrap.js",
+                    "~/javascript/manager/login.js"))
+
+        bundles.Add(New StyleBundle("~/css/manager/login").Include(
+                  "~/css/manager/bootstrap.css",
+                  "~/css/manager/login.css",
+                  "~/css/manager/magic.css"))
     End Sub
 End Module
 
